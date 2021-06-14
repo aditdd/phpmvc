@@ -27,7 +27,7 @@ class Welcome extends CI_Controller
 		$this->load->library('session');
 	}
 
-	public function index($nama = 'Ultraman')
+	public function index($nama = 'Pak Faruk Goodboy')
 	{
 		$data['judul'] = 'Halaman Home';
 		$data['nama'] = $nama;
