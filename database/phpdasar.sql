@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 12, 2021 at 11:22 AM
+-- Generation Time: Jun 14, 2021 at 06:30 AM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 7.4.16
 
@@ -42,14 +42,8 @@ CREATE TABLE `mahasiswa` (
 --
 
 INSERT INTO `mahasiswa` (`id`, `nama`, `nrp`, `email`, `jurusan`, `gambar`) VALUES
-(1, 'Mikasa Ackerman', '987654321', 'mikasa@gmail.com', 'Rekayasa Perangkat Lunak', 'Mikasa.jpg'),
-(3, 'Eren Jeager', '123456789', 'Eren@gmail.com', 'Teknik Komputer Dan Jaringan', 'Eren.jpg'),
-(4, 'Levi Ackerman', '769832541', 'levi@gmail.com', 'Multimedia', 'Levi.jpg'),
-(14, 'Annie Leonhart', '657488321', 'Annie@gmail.com', 'Teknik Industri', 'Annie.jpg'),
-(23, 'Armin Arlelt', '546389286', 'Armin@gmail.com', 'Sains', 'Armin.jpg'),
-(26, 'Historia', '1314551354', 'Historia@gmail.com', 'Teknik Politik', 'Historia.jpg'),
-(35, 'Erwin Smith', '654436787', 'Erwin@gmail.com', 'Sosial', 'Erwin1.jpg'),
-(43, 'Arie Fajar', '10', 'arie@gmail.com', 'Rekayasa Perangkat Lunak', '');
+(1, 'Dimas Aryan', '987654321', 'dimas@gmail.com', 'Rekayasa Perangkat Lunak', 'Mikasa.jpg'),
+(3, 'Aditya Dwi', '123456789', 'Adit@gmail.com', 'Teknik Komputer Dan Jaringan', 'Eren.jpg');
 
 -- --------------------------------------------------------
 
@@ -105,7 +99,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `mahasiswa`
 --
 ALTER TABLE `mahasiswa`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=48;
 
 --
 -- AUTO_INCREMENT for table `user`
